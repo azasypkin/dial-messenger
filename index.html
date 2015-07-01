@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dial Messenger</title>
+    <meta name="description" content="Dial Messenger App">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/dial-packet.js" defer></script>
+    <script src="js/dial-sender.js" defer></script>
+    <script src="js/dial-receiver.js" defer></script>
+    <script src="js/app.js" defer></script>
+    </head>
+  <body>
+    <form>
+      <input id="message-content" type="text" />
+      <button id="send-message" type="button">Send message</button>
+      <progress id="message-send-progress" value="0" max="0"></progress>
+    </form>
+    <p>Incoming messages</p>
+    <ul id="messages">
+    </ul>
+  </body>
+</html>

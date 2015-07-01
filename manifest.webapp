@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "name": "dial-messenger",
+  "description": "Dial Messenger",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Aleh Zasypkin",
+    "url": "http://example.com"
+  },
+  "type": "certified",
+  "permissions": {
+    "themeable":{},
+    "telephony":{},
+    "mobileconnection":{},
+    "idle":{},
+    "phonenumberservice": {}
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+   "locales": {
+      "en-US": {
+        "name": "Dial Messenger",
+        "description": "Dial Messenger"
+      }
+    },
+  "default_locale": "en"
+}
